@@ -1,0 +1,45 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    background: #0b0b0b;
+    border: 1px solid rgba(0, 255, 136, 0.3);
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* Focus Effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #00ff88;
+    box-shadow: 0 0 10px #00ff88;
+}
+
+/* Button */
+.contact-form button {
+    background: #00ff88;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    box-shadow: 0 0 20px #00ff88;
+    transform: translateY(-3px);
+}

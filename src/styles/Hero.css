@@ -1,0 +1,72 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 8%;
+    background: #050505;
+    color: white;
+}
+
+/* Left Side */
+.hero-content {
+    flex: 1;
+}
+
+.greeting {
+    color: #00ff88;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 70px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.role {
+    font-size: 32px;
+    color: #00ff88;
+    margin-bottom: 25px;
+}
+
+.hero-content p {
+    color: #9ca3af;
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+    padding: 12px 30px;
+    background: #00ff88;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px #00ff88;
+    transform: translateY(-3px);
+}
+
+/* Right Image */
+.hero-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00ff88;
+    box-shadow:
+        0 0 40px #00ff88,
+        0 0 80px rgba(0, 255, 136, 0.4);
+}

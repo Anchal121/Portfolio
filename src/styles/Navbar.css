@@ -1,0 +1,53 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #050505;
+    /* match hero */
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+/* Logo */
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #00ff88;
+    letter-spacing: 1px;
+}
+
+/* Nav Links */
+.navbar nav a {
+    margin-left: 25px;
+    cursor: pointer;
+    color: #cccccc;
+    text-decoration: none;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+/* Hover Effect */
+.navbar nav a:hover {
+    color: #00ff88;
+}
+
+/* Underline Animation */
+.navbar nav a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background: #00ff88;
+    transition: 0.3s ease;
+}
+
+.navbar nav a:hover::after {
+    width: 100%;
+}

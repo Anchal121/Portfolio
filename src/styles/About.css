@@ -1,0 +1,57 @@
+.about {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: #00ff88;
+}
+
+/* Paragraph */
+.about-content p {
+    color: #aaaaaa;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+/* Highlight Boxes Container */
+.about-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* Individual Box */
+.highlight-box {
+    background: #0b0b0b;
+    padding: 25px 35px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 255, 136, 0.25);
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.highlight-box:hover {
+    box-shadow: 0 0 25px #00ff88;
+    transform: translateY(-6px);
+}
+
+/* Heading */
+.highlight-box h3 {
+    color: #00ff88;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+/* Subtext */
+.highlight-box span {
+    font-size: 14px;
+    color: #aaaaaa;
+}
